@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="container text-center">
 <div class="home">
+<div class="textbox-bgr">
   {% if page.title %}
     <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
@@ -21,6 +22,7 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
+        <br>
         {% if site.show_excerpts %}
           {{ post.excerpt }}
         {% endif %}
@@ -28,10 +30,9 @@ layout: default
       {% endfor %}
     </ul>
     
-    <img src="piha.jpg">
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {% endif %}
-
+</div>
 </div>
 </div>

@@ -2,6 +2,7 @@
 layout: default
 ---
 <article class="container post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="textbox-bgr">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -14,7 +15,7 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {% endif %}</p>
   </header>
-
+  
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
@@ -24,4 +25,6 @@ layout: default
   {% endif %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</div>
 </article>
+
