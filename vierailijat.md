@@ -9,7 +9,7 @@ Autollakaan tänne ei ole vaikea löytää.
 
 Asunnot on numeroitu alusta 0-15 välillä, asunnot 0-12 ovat rivissä piha tien päätyyn asti. Keskellä sijaitsevat asunnot 13, 14 ja 15. Jokaisella talolla on lisäksi oma aakkosensa, A-G, jotka merkitään asunnon numeroon yhteydessä.
 
-<h4>Autopaikoitus</h4>
+#### Autopaikoitus
 
 Vieraisiin tuleville autopaikkoja ei valitettavasti erikseen löydy. Paikkaa kannattaa kysäistä asunnon omistajalta.
 
