@@ -5,12 +5,11 @@ permalink: /yhteystiedot/
 ---
 
 <br>
-<h3>Taloyhtiön hallitus</h3>
+### Taloyhtiön hallitus
 
-Sähköposti: {{ site.email }}
+Sähköposti: [{{ site.email }}](mailto:{{site.email}})
 
-<h3>Sivuston ylläpito ja tekninen tuki</h3>
+### Sivuston ylläpito ja tekninen tuki
 
-Sähköposti: {{ site.administrator_email }}
-
-Puhelinnumero: +358442927293
+Sähköposti: [{{ site.administrator_email }}](mailto:{{ site.administrator_email }})<br>
+Puhelinnumero: [044 292 7293](tel:+358442927293)
