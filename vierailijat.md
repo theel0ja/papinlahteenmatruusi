@@ -15,7 +15,8 @@ Vieraisiin tuleville autopaikkoja ei valitettavasti erikseen löydy. Paikkaa kan
 
 <!-- .text-center breaks Mapbox GL js -->
 <center>
-<div id='map' style='width: 400px; height: 300px; text-align: left;'></div>
+  <div id='map' style='width: 400px; height: 300px; text-align: left;'></div>
+</center>
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiZXNtYWxhIiwiYSI6ImNqZXZ5N2hqZzBpbWEyd3BjZm5wMHkzN2cifQ.2Vj6-u9JdYdsb92maw3jyQ';
     var map = new mapboxgl.Map({
@@ -28,4 +29,14 @@ Vieraisiin tuleville autopaikkoja ei valitettavasti erikseen löydy. Paikkaa kan
         .setLngLat([22.272281, 60.3953140])
         .addTo(map);
 </script>
-</center>
+
+<!-- Add zoom controls to map. -->
+<script src="https://theel0ja.github.io/mapbox-gl-disable-map-rotation/dist/script.js?v=1"></script>
+<link rel="stylesheet" href="https://theel0ja.github.io/mapbox-gl-disable-map-rotation/dist/style.css?v=1">
+<script>
+    // Add zoom and rotation controls to the map.
+    map.addControl(new mapboxgl.NavigationControl());
+
+    // Disable map rotation.
+    disableMapRotation(map);
+</script>
