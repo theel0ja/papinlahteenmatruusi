@@ -16,3 +16,14 @@ Lorem Ipsum dolor sit amet
         style: 'mapbox://styles/mapbox/streets-v10'
     });
 </script>
+
+<!-- Zoom controls to map. -->
+<script src="https://theel0ja.github.io/mapbox-gl-disable-map-rotation/dist/script.js?v=1"></script>
+<link rel="stylesheet" href="https://theel0ja.github.io/mapbox-gl-disable-map-rotation/dist/style.css?v=1">
+<script>
+    // Add zoom and rotation controls to the map.
+    map.addControl(new mapboxgl.NavigationControl());
+
+    // Disable map rotation.
+    disableMapRotation(map);
+</script>
