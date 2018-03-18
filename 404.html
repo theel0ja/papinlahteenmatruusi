@@ -24,7 +24,7 @@ layout: default
 
   <!-- Google helpful 404 page (https://gist.github.com/theel0ja/2d4330904c1ed7137a7d79c9bf0224ee, https://web.archive.org/web/20120922025403/http://support.google.com/webmasters/bin/answer.py?hl=en&answer=136085) -->
   <script>
-    var GOOG_FIXURL_LANG = 'en';
+    var GOOG_FIXURL_LANG = '{{ page.lang | default: site.lang | default: "en" }}';
     var GOOG_FIXURL_SITE = location.host;
   </script>
   <script src="https://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>

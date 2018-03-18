@@ -23,6 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sandbox.papinlahteenmatruusi.fi" # the base hostname & protocol for your site, e.g. http://example.com
 
+lang: fi
+
 # ShepCMS server
 shepcms_server: "http://127.0.0.1:3000/"
 
